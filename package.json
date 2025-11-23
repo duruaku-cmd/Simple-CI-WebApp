@@ -1,0 +1,25 @@
+{
+  "name": "simple-ci-webapp",
+  "version": "1.0.0",
+  "description": "TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project.",
+  "main": "index.js",
+  "scripts": {
+    	"start":"node server.js",
+	"test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://AdfremLimited@dev.azure.com/AdfremLimited/Simple-CI-WebApp/_git/Simple-CI-WebApp"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
+
