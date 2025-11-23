@@ -1,11 +1,17 @@
-# Introduction  
-This project demonstrates how to build a complete **Continuous Integration (CI)** workflow using **Azure DevOps Pipelines**.  
-It includes a simple Node.js web application with automated tests, showcasing how code can be validated every time a developer pushes changes or opens a pull request.  
+# Azure DevOps CI Pipeline for Node.js Web Application
 
-The primary objective of this project is to:
-- Learn how modern DevOps teams automate the build and validation process  
-- Implement a real-world CI pipeline using Azure DevOps YAML  
-- Understand how Git, Azure Boards, Azure Repos, and Azure Pipelines work together  
-- Build a portfolio-worthy project that reflects industry CI/CD practices  
+## 📌 Introduction  
+This project demonstrates how to build a complete **Continuous Integration (CI)** workflow using **Azure DevOps**.  
+It includes the development of a simple Node.js web application, automated unit testing using Jest + Supertest, Git version control, and a fully automated CI pipeline executed on a self-hosted Linux agent.
+
+The goal of this project is to simulate a **real enterprise DevOps environment**, including:
+
+- Structuring work using Azure Boards  
+- Managing code through Azure Repos and Git  
+- Automating builds and tests using Azure Pipelines (YAML)  
+- Executing pipelines on a self-hosted agent  
+- Practicing best CI/CD and DevOps principles  
+
+This project serves as a practical foundation for more advanced DevOps workflows such as CD, containerization, IaC, and cloud deployments.
 
 ---
